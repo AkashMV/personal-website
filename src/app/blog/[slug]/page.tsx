@@ -1,9 +1,8 @@
 // src/app/blog/[slug]/page.tsx
-import { useRouter } from "next/router";
+import { useParams } from "next/navigation";
 
 export default function BlogPostPage() {
-  const router = useRouter();
-  const { slug } = router.query;
+  const { slug } = useParams();
 
   // Fetch the blog post data based on the slug
   // You can replace this with your own data fetching logic
