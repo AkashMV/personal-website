@@ -7,7 +7,7 @@ export default function Home() {
       <section className="hero flex items-center py-20">
 
         <div className="w-1/2">
-          <h1 className="text-4xl font-bold mb-4">hey, Im akash</h1>
+          <h1 className="text-4xl font-bold mb-4">hey Im akash</h1>
           <p className="text-xl">Im a software developer based in Chandigarh.</p>
           <p className="text-xl mb-8">Welcome to my personal website.</p>
         </div>
